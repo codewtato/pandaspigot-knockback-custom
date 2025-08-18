@@ -1,0 +1,28 @@
+# Archivo de configuración de ejemplo para PandaSpigot
+# Con las nuevas opciones de knockback extendidas
+
+worlds:
+  default:
+    knockback:
+      # === NUEVAS CONFIGURACIONES AVANZADAS ===
+      knockback-multiplier: 1.0
+      hit-delay: 1
+      wtap-multiplier: 1.0
+      strafe-multiplier: 1.0
+      rod-multiplier: 0.95
+      advanced-hit-detection: true
+      velocity-multiplier: 1.0
+      optimized-tps: true
+      max-player-packets: 100
+      friction-horizontal: 2.0
+      friction-vertical: 1.5
+      sprint-multiplier: false
+      reduction: 1.0
+      
+      # === CONFIGURACIONES ORIGINALES (mantenidas para compatibilidad) ===
+      friction: 2.0
+      horizontal: 0.4
+      vertical: 0.4
+      vertical-limit: 0.4000000059604645
+      extra-horizontal: 0.5
+      extra-vertical: 0.1
