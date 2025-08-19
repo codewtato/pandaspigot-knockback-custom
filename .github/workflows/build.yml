@@ -36,6 +36,9 @@ jobs:
     - name: Make gradlew executable
       run: chmod +x gradlew
       
+    - name: Make panda script executable
+      run: chmod +x panda
+      
     - name: Setup PandaSpigot
       run: ./panda setup
       
