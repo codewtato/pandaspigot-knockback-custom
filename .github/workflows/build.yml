@@ -39,6 +39,9 @@ jobs:
     - name: Make panda script executable
       run: chmod +x panda
       
+    - name: Make all scripts executable
+      run: chmod +x scripts/*.sh
+      
     - name: Setup PandaSpigot
       run: ./panda setup
       
