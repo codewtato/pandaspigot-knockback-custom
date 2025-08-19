@@ -42,6 +42,11 @@ jobs:
     - name: Make all scripts executable
       run: chmod +x scripts/*.sh
       
+    - name: Configure Git for PandaSpigot
+      run: |
+        git config --global user.email "codewtato@gmail.com"
+        git config --global user.name "codewtato"
+      
     - name: Setup PandaSpigot
       run: ./panda setup
       
