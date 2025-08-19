@@ -27,18 +27,10 @@ index 9afaf630481a9533fb014f306d4d90b8de80a129..3dd3d0702c17541083d0d365ca46e936
 +        public double extraHorizontal = 0.5;
 +        public double extraVertical = 0.1;
 +        public double knockbackMultiplier = 1.0;
-+        public int hitDelay = 1;
 +        public double wtapMultiplier = 1.0;
-+        public double strafeMultiplier = 1.0;
 +        public double rodMultiplier = 0.95;
-+        public boolean advancedHitDetection = true;
-+        public double velocityMultiplier = 1.0;
-+        public boolean optimizedTps = true;
-+        public int maxPlayerPackets = 100;
 +        public double frictionHorizontal = 2.0;
 +        public double frictionVertical = 1.5;
-+        public boolean sprintMultiplier = false;
-+        public double reduction = 1.0;
 +    }
  }
 diff --git a/src/main/java/net/minecraft/server/EntityHuman.java b/src/main/java/net/minecraft/server/EntityHuman.java
