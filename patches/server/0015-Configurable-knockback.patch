@@ -26,7 +26,6 @@ index 9afaf630481a9533fb014f306d4d90b8de80a129..3dd3d0702c17541083d0d365ca46e936
 +        public double verticalLimit = 0.4000000059604645;
 +        public double extraHorizontal = 0.5;
 +        public double extraVertical = 0.1;
-+        // Extended knockback settings
 +        public double knockbackMultiplier = 1.0;
 +        public int hitDelay = 1;
 +        public double wtapMultiplier = 1.0;
